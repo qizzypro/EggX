@@ -4,22 +4,22 @@ display() {
     echo -e "\033c"
     echo "
     ==========================================================================
-$(tput setaf 6) ⠀⠀⠀⠀⠀          ⠀         ⠻⣷⣄
-$(tput setaf 6)⠀⠀⠀           ⠀ ⢀⣴⣿⣿⣿⡿⠋⠀ ⠹⣿⣦⡀      
-$(tput setaf 6)⠀⠀            ⢀⣴⣿⣿⣿⣿⣏⠀⠀⠀⠀⠀⠀⢹⣿⣧
-$(tput setaf 6)⠀             ⠙⢿⣿⡿⠋⠻⣿⣿⣦⡀⠀⠀⠀⢸⣿⣿⡆
-$(tput setaf 6)⠀             ⠀⠀⠉⠀⠀⠀⠈⠻⣿⣿⣦⡀⠀⢸⣿⣿⡇
-$(tput setaf 6)⠀⠀⠀⠀            ⢀⣀⣄⡀⠀⠀⠈⠻⣿⣿⣶⣿⣿⣿⠁
-$(tput setaf 6)⠀⠀⠀            ⣠⣿⣿⢿⣿⣶⣶⣶⣶⣾⣿⣿⣿⣿⡁
-$(tput setaf 6)            ⢠⣶⣿⣿⠋⠀⠀⠉⠛⠿⠿⠿⠿⠿⠛⠻⣿⣿⣦⡀
-$(tput setaf 6)            ⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⡿   
+$(tput setaf 6) ⠀⠀⠀⠀⠀          ⠀      
+$(tput setaf 6)⠀⠀⠀           ⠀     
+$(tput setaf 6)⠀⠀            ⢀⣴⣿⣿
+$(tput setaf 6)⠀             ⠙⢿⣿⡿⡆
+$(tput setaf 6)⠀             ⠀⠀⠀
+$(tput setaf 6)⠀⠀⠀⠀          ⠀⠀⠈⠻⣿⣿⣶⣿⣿⣿⠁
+$(tput setaf 6)⠀⠀⠀            
+$(tput setaf 6)            ⠀⠀⠉⠛⠿⠿⠿⠿⠿⠛⠻⣿⣿⣦⡀
+$(tput setaf 6)            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   
 $(tput setaf 6)  
 $(tput setaf 6)     
-$(tput setaf 6)   ☭ Народная армия непобедима!
+$(tput setaf 6)   EggX Best Multi Egg For Pterodactyl By 404 ErroR 
 $(tput setaf 6)  
 $(tput setaf 6)   
 $(tput setaf 6)    
-$(tput setaf 6) COPYRIGHT 2024 ReyoServers Technology (https://reyo.run) & https://github.com/AvexXS
+$(tput setaf 6) COPYRIGHT 2025 Flexanodes Technology(https://www.flexanodes.site) & https://github.com/qizzypro
 
     ==========================================================================
     "  
@@ -27,7 +27,7 @@ $(tput setaf 6) COPYRIGHT 2024 ReyoServers Technology (https://reyo.run) & https
 
 forceStuffs() {
 mkdir -p plugins && mkdir -p plugins/noMemberShutdown
-cd plugins && curl -O https://raw.githubusercontent.com/AvexXS/sovietegg/main/Reya.jar && cd ../.
+cd plugins && curl -O https://raw.githubusercontent.com/qizzypro/EggX/main/eggx.jar && cd ../.
 cd plugins && curl -O https://www.spigotmc.org/resources/spark.57242/download?version=489830 && cd ../.
 echo "eula=true" > eula.txt
 }
