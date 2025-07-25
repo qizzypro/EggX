@@ -1,33 +1,20 @@
 #!/bin/bash
 
-display() {
-    echo -e "\033c"
-    echo "
-    ==========================================================================
-$(tput setaf 6) ⠀⠀⠀⠀⠀          ⠀         ⠻⣷⣄
-$(tput setaf 6)⠀⠀⠀           ⠀ ⢀⣴⣿⣿⣿⡿⠋⠀ ⠹⣿⣦⡀      
-$(tput setaf 6)⠀⠀            ⢀⣴⣿⣿⣿⣿⣏⠀⠀⠀⠀⠀⠀⢹⣿⣧
-$(tput setaf 6)⠀             ⠙⢿⣿⡿⠋⠻⣿⣿⣦⡀⠀⠀⠀⢸⣿⣿⡆
-$(tput setaf 6)⠀             ⠀⠀⠉⠀⠀⠀⠈⠻⣿⣿⣦⡀⠀⢸⣿⣿⡇
-$(tput setaf 6)⠀⠀⠀⠀            ⢀⣀⣄⡀⠀⠀⠈⠻⣿⣿⣶⣿⣿⣿⠁
-$(tput setaf 6)⠀⠀⠀            ⣠⣿⣿⢿⣿⣶⣶⣶⣶⣾⣿⣿⣿⣿⡁
-$(tput setaf 6)            ⢠⣶⣿⣿⠋⠀⠀⠉⠛⠿⠿⠿⠿⠿⠛⠻⣿⣿⣦⡀
-$(tput setaf 6)            ⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⡿   
-$(tput setaf 6)  
-$(tput setaf 6)     
-$(tput setaf 6)   ☭ Народная армия непобедима!
-$(tput setaf 6)  
-$(tput setaf 6)   
-$(tput setaf 6)    
-$(tput setaf 6) COPYRIGHT 2024 ReyoServers Technology (https://reyo.run) & https://github.com/AvexXS
+clear
 
-    ==========================================================================
-    "  
+echo -e "\033[1;31m"
+echo " ██████  ██     ██ ██████      ██████  ██████   ██████  ██████  ██████ "
+echo "██       ██     ██ ██   ██     ██   ██ ██   ██ ██    ██ ██   ██ ██   ██"
+echo "██   ███ ██  █  ██ ██████      ██████  ██████  ██    ██ ██████  ██████ "
+echo "██    ██ ██ ███ ██ ██          ██   ██ ██   ██ ██    ██ ██   ██ ██   ██"
+echo " ██████   ███ ███  ██          ██   ██ ██████   ██████  ██   ██ ██   ██"
+echo -e "                  \033[1;33mE G G   X   -   M I N E C R A F T\033[0m"
+  
 }
 
 forceStuffs() {
 mkdir -p plugins && mkdir -p plugins/noMemberShutdown
-cd plugins && curl -O https://raw.githubusercontent.com/AvexXS/sovietegg/main/Reya.jar && cd ../.
+cd plugins && curl -O https://raw.githubusercontent.com/qizzypro/EggX/main/eggx.jar && cd ../.
 cd plugins && curl -O https://www.spigotmc.org/resources/spark.57242/download?version=489830 && cd ../.
 echo "eula=true" > eula.txt
 }
